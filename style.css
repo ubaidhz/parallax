@@ -1,0 +1,57 @@
+/*
+CSS for the demo: Recreating the Nikebetterworld.com Parallax Demo
+Demo: Recreating the Nikebetterworld.com Parallax Demo
+Author: Ian Lunn
+Author URL: http://www.ianlunn.co.uk/
+Demo URL: http://www.ianlunn.co.uk/demos/recreate-nikebetterworld-parallax/
+Tutorial URL: http://www.ianlunn.co.uk/blog/code-tutorials/recreate-nikebetterworld-parallax/
+
+License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike). Please attribute work to Ian Lunn simply by leaving these comments in the source code or if you'd prefer, place a link on your website to http://www.ianlunn.co.uk/.
+
+Dual licensed under the MIT and GPL licenses:
+http://www.opensource.org/licenses/mit-license.php
+http://www.gnu.org/licenses/gpl.html
+*/
+
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+img{
+	border: 0;
+}
+
+ #intro, #second{
+	width: 100%;
+}
+
+#intro{
+	background:url(images/firstBG.jpg) 50% 0px no-repeat fixed;
+	color: white;
+	height: 1000px;
+	margin: 0;
+	
+}
+
+#second{
+	background: url(images/secondBG.jpg) 50% 0 no-repeat fixed;
+	color: white;
+	height: 1500px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+}
+
+#third{
+	background: url(images/thirdBG.jpg) 50% 0 no-repeat fixed;
+	color: white;
+	height: 1750px;
+		
+}
+
+
+
+
+
